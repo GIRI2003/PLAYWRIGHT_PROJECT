@@ -116,4 +116,10 @@ console.log('Value of nullVar: ',nullVar); //20
 console.log('Data Type of nullVar: ', typeof (nullVar)); //Number
 
 //6. BigInt
+
+console.log("7n" + 9007199254740991n); 
+
 //7. Symbol
+
+//
+

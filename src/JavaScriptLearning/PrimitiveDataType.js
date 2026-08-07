@@ -117,9 +117,21 @@ console.log('Data Type of nullVar: ', typeof (nullVar)); //Number
 
 //6. BigInt
 
-console.log("7n" + 9007199254740991n); 
+console.log(Number.MAX_SAFE_INTEGER);
+
+//let myNum = 9007199254740991n + 10; 
+//console.log( myNum); //Cannot mix BigInt and other types, use explicit conversions
+
+let myBigInt = 9007199254740991n + 100n;
+console.log(myBigInt); //9007199254741091n
+
+let myBigInt2 = 9007199254740991n + "10n"
+console.log(myBigInt2); //900719925474099110n
+
+
 
 //7. Symbol
 
-//
+console.log(Symbol("id")); 
+console.log(typeof id);
 

@@ -70,11 +70,13 @@ var a = 100;
 
 //2. let -> Hoisting is not allowed. The variable is hoisted to the top of its scope but not initialized.
 //console.log('Value of b: ', b); //ReferenceError: Cannot access 'b' before initialization
+console.log(b); //Cannot access 'b' before initialization
 let b = 200;
 console.log('value of b: ', b); //200
 
 //3. const -> Hoisting is not allowed. The variable is hoisted to the top of its scope but not initialized.
 //console.log('Value of c: ', c); //ReferenceError: Cannot access 'c' before initialization
+console.log(c); //Cannot access 'c' before initialization
 const c = 300;
 console.log('Value of c: ', c); //300
 

@@ -63,6 +63,7 @@ console.log(typeof ("Girinath" + 100)); //string
 console.log(typeof ("Girinath" / 100)); //number
 
 console.log(10 + '1' -1); //101 - 1 -> 100
+console.log(10 - '1' + '1'); //91 -> If there is only (+) and (-), then JS will run from left side
 console.log('2' - 10); //-8
 
 /*-----------------------------------------------------------------------------------*/

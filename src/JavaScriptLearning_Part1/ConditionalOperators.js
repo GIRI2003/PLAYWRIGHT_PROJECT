@@ -21,14 +21,15 @@ else {
 }
 
 //worst way to write a conditional statement
-let browser = "Chrome";
+/*
+let browser = "edge";
 if (browser.toLowerCase() === "chrome") {
     console.log("Launch Chrome");
 }
 if (browser === "firefox") {
     console.log("Launch Firefox");
 }
-if (browser === "egde") {
+if (browser === "edge") {
     console.log("Launch edge");
 }
 if (browser === "brave") {
@@ -37,7 +38,22 @@ if (browser === "brave") {
 else {
     console.log("Invalid browser");
 }
+*/
 
-
-
-
+// if else if----else -> Better, but even it give some performance issue
+let browser = "  IE  ";
+if (browser.toLowerCase().trim() === "chrome") {
+    console.log("launch chrome");
+}
+else if (browser.toLowerCase().trim() === "firefox") {
+    console.log("launch firefox");
+}
+else if (browser.toLowerCase().trim() === "edge") {
+    console.log("launch edge");
+}
+else if (browser.toLowerCase().trim() === "safari") {
+    console.log("launch safari");
+}
+else {
+    console.log("Invalid browser.. enter correct browser");
+}

@@ -11,7 +11,7 @@ We can use camelCase or PascalCase or snake_case or SREAMING_SNAKE_CASE for cons
 
 //1. var
 
-var x = 1; 
+var x = 1;
 /* 
 var --> Keyword or Identifier
 x --> variable name 
@@ -81,11 +81,11 @@ const c = 300;
 console.log('Value of c: ', c); //300
 
 /* ------------------------------------------ */
-
+/*
 let g = 10;
 var g = 20; //Error: Redeclaration is allowed for var but not for let
 console.log(g); //20
-
+*/
 /* ------------------------------------------ */
 
 var h = 10; //SyntaxError: Identifier 'h' has already been declared
